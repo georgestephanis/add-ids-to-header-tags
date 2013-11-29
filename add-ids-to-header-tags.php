@@ -1,12 +1,12 @@
 <?php
 
 /**
- * 	Plugin Name: Add IDs to Header Tags
- * 	Plugin URI: http://wordpress.org/plugins/add-ids-to-header-tags/
- * 	Description: Add an `id` attribute to header tags in your posts, to let users deep-link into your content.
- * 	Author: George Stephanis
- * 	Version: 1.0
- * 	Author URI: http://stephanis.info
+ * Plugin Name: Add IDs to Header Tags
+ * Plugin URI: http://wordpress.org/plugins/add-ids-to-header-tags/
+ * Description: Add an `id` attribute to header tags in your posts, to let users deep-link into your content.
+ * Author: George Stephanis
+ * Version: 1.0
+ * Author URI: http://stephanis.info
  */
 
 add_filter( 'the_content', 'add_ids_to_header_tags' );
